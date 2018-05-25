@@ -1,0 +1,18 @@
+- Recurso/Endpoint
+    - Caminho absoluto com responsabilidade específica
+
+- Autenticação
+    - E-mail e Token
+
+- Tratamento de Dados
+    - Prevenção contra SQL Injection
+    - Prevenção contra dados mal intencionados
+    - Tratamento de todos os erros possíveis e depois a rotina
+
+- Retorno
+    - Deve seguir um padrão (JSON, XML...)
+    - Erros devem ter uma interface
+
+- Baixo acoplamento
+    - Métodos
+    - Arquivos

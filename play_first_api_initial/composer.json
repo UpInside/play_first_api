@@ -1,0 +1,19 @@
+{
+  "name": "gustavoweb/first_api",
+  "description": "Projeto Prático de Primeira API - https://upinside.com.br",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Gustavo Web",
+      "email": "gustavo@upinside.com.br"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Model\\": "Source/Models/"
+    }
+  }
+}
